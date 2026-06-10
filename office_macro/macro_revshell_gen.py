@@ -3,7 +3,8 @@ import base64
 
 parser = argparse.ArgumentParser(
     prog="Macro Reverse Shell Generator",
-    description="Generate a Base64 encoded powercat reverse shell concatenated into 50 character strings for use in Office Macros",
+    description="Generate a Base64 encoded powercat reverse shell " \
+    "concatenated into 50 character strings for use in Office Macros",
 )
 
 parser.add_argument("-l", "--lhost", required=True)
