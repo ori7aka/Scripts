@@ -5,8 +5,7 @@ import argparse
 
 parser = argparse.ArgumentParser(
     prog="Macro Reverse Shell Generator",
-    description="Generate an XML file describing a libary to be loaded with a malicious shortcut file "
-    "pointing to a powercat reverse shell",
+    description=" Generate an XML defined .Library-ms file pointing to a remote directory hosted by WebDAV (or other compatible solution)",
 )
 
 parser.add_argument("-l", "--lhost", required=True)
