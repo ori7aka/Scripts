@@ -1,3 +1,5 @@
+# Generate a Base64 encoded powercat reverse shell concatenated into 50 character strings for use in Office Macros
+
 import argparse
 import base64
 
