@@ -13,7 +13,7 @@ dir = args.directory
 
 base_path = os.path.expanduser("~/Workspace/PenTest")
 engagement_path = os.path.join(base_path, dir)
-subdirs = ["Enum", "Exploits", "Uploads", "Tools"]
+subdirs = ["Enum", "VulnAssessment", "Exploitation", "PostExploitation", "LateralMovement"]
 
 for subdir in subdirs:
     os.makedirs(os.path.join(engagement_path, subdir), exist_ok=True)
